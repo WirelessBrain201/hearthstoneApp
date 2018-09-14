@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  background-image: url("https://blznews.akamaized.net/images/backgrounds/blizzardApp/blizzardApp_background_hearthstone-b10f6f93fbcb858907dcae8dccaa83508833727f3fc3d2bdebd9770944e4ae64fcd82d1423f835ec3a933bb9bb8f37def8f3996e421640573a068fee4b4a88a5.jpg");
+  min-height: 100vh;
+}
+
+.column {
+  width: 50%;
+  float: left;
+}
+
+.cardImage {
+  padding-bottom: 35px;
+}
+
+.cardInfo {
+  padding-top: 140px;
+  text-align: left;
+}
+
+.infoLine {
+  font-size: 20px;
+}
+
+.displayCard {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  margin-bottom: auto;
+}
+
+.searchArea {
+  padding-left: 75px;
+}
+
+#searchButton {
+  margin-left: 15px;
+}
+
+#searchIcon {
+  margin-right: 15px;
+}
