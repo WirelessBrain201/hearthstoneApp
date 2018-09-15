@@ -11,9 +11,6 @@ import SearchIcon from "@material-ui/icons/Search";
 import axios from "axios";
 import * as React from "react";
 import "./App.css";
-// import CardInfo from "./components/cardInfo";
-// import Logo from "./components/logo";
-// import SearchBar from "./components/searchBar";
 
 interface IState {
   apiError: boolean;
@@ -183,6 +180,14 @@ class App extends React.Component<{}, IState> {
               </div>
             </Toolbar>
           </AppBar>
+          <Card className="displayCard">
+            <CardContent>
+              <Typography>
+                Welcome to the Hearthstone Card Info app! Try searching for a
+                card in the search bar above to get started!
+              </Typography>
+            </CardContent>
+          </Card>
         </div>
       );
     } else {
@@ -215,7 +220,7 @@ class App extends React.Component<{}, IState> {
             <CardContent>
               <Typography>
                 Looks like that card doesn't exist! Try making sure your
-                punctuation is right, e.g. "dr. boom" instead of "dr boom"
+                punctuation is right, e.g. "dr. boom" instead of "dr boom".
               </Typography>
             </CardContent>
           </Card>
